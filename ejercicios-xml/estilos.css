@@ -1,0 +1,67 @@
+
+curriculum_vitae {
+    display: block;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+informacion_personal {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nombre, apellidos {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+año_nacimiento {
+    display: block;
+    margin: 10px 0;
+    color: black;
+}
+
+residencia {
+    display: block;
+    margin-top: 15px;
+}
+
+ciudad, pais {
+    display: block;
+    margin: 5px 0;
+}
+
+datos_de_contacto::before {
+    content: "Datos de Contacto";
+    font-size: xx-large;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+telefono, correo_electronico, perfil_linkedin {
+    display: block;
+    margin: 5px 0;
+}
+
+
+seccion {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+descripcion_general, competencias, formacion_academica, experiencia_profesional {
+    display: block;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE curriculum_vitae PUBLIC "enunciado.dtd">
+
+<curriculum_vitae>
+    <informacion_personal>
+        <nombre>Iván</nombre>
+        <apellidos>Sánchez Sánchez</apellidos>
+        <año_nacimiento>2005</año_nacimiento>
+        <residencia>
+            <residencia_actual>
+                <direccion>Avenida Principal, Casa 56</direccion>
+                <ciudad>Madrid</ciudad>
+                <estado>España</estado>
+                <codigo_postal>54321</codigo_postal>
+            </residencia_actual>
+        </residencia>
+        <datos_de_contacto>
+            <telefono>123-456-789</telefono>
+            <correo_electronico>correo@ejemplo.com</correo_electronico>
+            <perfil_linkedin>linkedin.com/ivan.com</perfil_linkedin>
+        </datos_de_contacto>
+    </informacion_personal>
+
+    <descripcion_general>Esto es una breve descripción sobre mí.</descripcion_general>
+
+    <competencias>
+        <competencia>
+            <nombre>Competencia 1</nombre>
+            <nivel>Avanzado</nivel>
+        </competencia>
+        <competencia>
+            <nombre>Competencia 2</nombre>
+            <nivel>Intermedio</nivel>
+        </competencia>
+    </competencias>
+
+    <formacion_academica>
+        <titulacion>Desarrollo de Aplicaciones Multiplataforma</titulacion>
+        <centro_de_formacion>IES Fernando VI</centro_de_formacion>
+        <ano_titulacion>2025</ano_titulacion>
+    </formacion_academica>
+
+    <experiencia_profesional>
+        <puesto>Técnico en Desarrollo de aplicaciones multiplataforma</puesto>
+        <empresa>Empresa España</empresa>
+        <ano_inicio>2025</ano_inicio>
+        <ano_finalizacion>2039</ano_finalizacion>
+    </experiencia_profesional>
+</curriculum_vitae>

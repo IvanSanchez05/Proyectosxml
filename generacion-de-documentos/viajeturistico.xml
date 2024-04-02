@@ -1,0 +1,17 @@
+<viajeturistico>
+    <clientes>
+        <nombre>Iván</nombre>
+        <apellidos>Sánchez</apellidos>
+    </clientes>
+    <datosviaje>
+        <fechainicio>20-07-2005</fechainicio>
+        <fechafin>27-07-2005</fechafin>
+        <origenviaje>España</origenviaje>
+        <preciodelviaje>El precio es de 500 euros</preciodelviaje>
+    </datosviaje>
+    <destino>
+        <nombredelaciudad>Londres</nombredelaciudad>
+        <nombredelhotel>Hotel Spa de Londres</nombredelhotel>
+        <numerodenoches>7 noches</numerodenoches>
+    </destino>
+</viajeturistico>

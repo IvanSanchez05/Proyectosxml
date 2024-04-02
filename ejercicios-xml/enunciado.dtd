@@ -1,0 +1,31 @@
+<!ENTITY % residencia_version "(residencia_anterior?, residencia_actual)">
+<!ELEMENT curriculum_vitae (informacion_personal, descripcion_general, competencias, formacion_academica, experiencia_profesional)>
+<!ELEMENT informacion_personal (nombre, apellidos, año_nacimiento, residencia, datos_de_contacto)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT año_nacimiento (#PCDATA)>
+<!ELEMENT residencia %residencia_version;>
+<!ELEMENT residencia_anterior (direccion, ciudad, estado, codigo_postal)>
+<!ELEMENT residencia_actual (direccion, ciudad, estado, codigo_postal)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT datos_de_contacto (telefono, correo_electronico, perfil_linkedin)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT correo_electronico (#PCDATA)>
+<!ELEMENT perfil_linkedin (#PCDATA)>
+<!ELEMENT descripcion_general (#PCDATA)>
+<!ELEMENT competencias (competencia+)>
+<!ELEMENT competencia (nombre, nivel)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nivel (#PCDATA)>
+<!ELEMENT formacion_academica (titulacion, centro_de_formacion, ano_titulacion)>
+<!ELEMENT titulacion (#PCDATA)>
+<!ELEMENT centro_de_formacion (#PCDATA)>
+<!ELEMENT ano_titulacion (#PCDATA)>
+<!ELEMENT experiencia_profesional (puesto, empresa, ano_inicio, ano_finalizacion)>
+<!ELEMENT puesto (#PCDATA)>
+<!ELEMENT empresa (#PCDATA)>
+<!ELEMENT ano_inicio (#PCDATA)>
+<!ELEMENT ano_finalizacion (#PCDATA)>

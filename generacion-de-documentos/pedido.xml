@@ -1,0 +1,21 @@
+<pedido>
+    <cliente>
+        <nombre>Paco</nombre>
+        <apellidos>Gento</apellidos>
+        <direccion>Avenida de España</direccion>
+        <localidad>Marrcuecos</localidad>
+        <codigoPostal>28822</codigoPostal>
+    </cliente>
+    <producto cantidad ="2">
+        <nombre>Hamburgesa</nombre>
+        <precio>4 euros</precio>
+    </producto>
+    <producto>
+        <nombre>CocaCola</nombre>
+        <precio>2</precio>
+    </producto>
+    <producto cantidad="5">
+        <nombre>Brownie</nombre>
+        <precio>1,7</precio>
+    </producto>
+</pedido>

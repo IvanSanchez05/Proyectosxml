@@ -1,0 +1,7 @@
+<!DOCTYPE nota SYSTEM "externa.dtd">
+<nota>
+    <para>Carlos</para>
+    <de>Iván</de>
+    <cabecera>Estudia</cabecera>
+    <cuerpo>Para aprobar el examen</cuerpo>
+</nota>
